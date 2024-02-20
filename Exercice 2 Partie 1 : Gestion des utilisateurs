@@ -2,3 +2,4 @@ Q.2.1.1 Sur le serveur, créer un compte pour ton usage personnel.
 voir adduser.jpg
 
 Q.2.1.2 Quelles préconisations proposes-tu concernant ce compte ?
+usermod -aG sudo pierre
