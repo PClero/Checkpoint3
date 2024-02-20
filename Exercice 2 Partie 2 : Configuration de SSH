@@ -2,6 +2,10 @@ Un serveur SSH est lancé sur le port par défaut.
 Il est possible de s'y connecter avec n'importe quel compte, y compris le compte root.
 
 Q.2.2.1 Désactiver complètement l'accès à distance de l'utilisateur root.
+#éditer le fichier sshd_config
+sudo nano /etc/ssh/sshd_config
+#Modifier cette ligne pour désactiver l'accès SSH pour root en changeant "yes" en "no"
+PermitRootLogin no
 
 Q.2.2.2 Autoriser l'accès à distance à ton compte personnel uniquement.
 
