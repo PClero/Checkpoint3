@@ -1,5 +1,6 @@
 Partie 2 : Restriction utilisateurs
 Q.1.2.1 Faire en sorte que l'utilisateur Gabriel Ghul ne puisse se connecter que du lundi au vendredi, de 7h à 17h.
+voir GhulLogonHours.jpg
 
 Q.1.2.2 De même, bloquer sa connexion au seul ordinateur CLIENT01.
 
