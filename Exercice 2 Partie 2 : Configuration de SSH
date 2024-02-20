@@ -10,3 +10,11 @@ PermitRootLogin no
 Q.2.2.2 Autoriser l'accès à distance à ton compte personnel uniquement.
 
 Q.2.2.3 Mettre en place une authentification par clé valide et désactiver l'authentification par mot de passe
+ssh-keygen -t rsa
+ssh-copy-id pierre@192.168.1.188
+#éditer le fichier sshd_config
+sudo nano /etc/ssh/sshd_config
+PasswordAuthentication no
+
+
+
