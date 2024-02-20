@@ -8,6 +8,9 @@ sudo nano /etc/ssh/sshd_config
 PermitRootLogin no
 
 Q.2.2.2 Autoriser l'accès à distance à ton compte personnel uniquement.
+#éditer le fichier sshd_config
+sudo nano /etc/ssh/sshd_config
+AllowUsers pierre
 
 Q.2.2.3 Mettre en place une authentification par clé valide et désactiver l'authentification par mot de passe
 ssh-keygen -t rsa
